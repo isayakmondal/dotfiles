@@ -53,7 +53,7 @@ I assume you have a swap partition ready to use (if you have a swap file you can
 4. Then run one of the following lines:
 
     ```
-     grep swap /etc/fstab
+    grep swap /etc/fstab
     blkid | grep swap
     ```
 5. Copy the UUID value. You will need it later.
@@ -78,3 +78,10 @@ I assume you have a swap partition ready to use (if you have a swap file you can
 
     `sudo systemctl hibernate`
 
+# Getting My Preferred Color (Color Accuracy)
+
+- Download `sudo apt-get install gnome-color-manager` 
+
+- **Go to Settings -> Color -> Laptop Screen -> Add Profile -> Select Standard Space - sRGB**
+
+- Night Light ![Color Temp](color-temp.png)
