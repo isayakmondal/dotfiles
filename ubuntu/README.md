@@ -14,6 +14,8 @@
 
 - [Status Area Horizontal Spacing by p91paul](https://extensions.gnome.org/extension/355/status-area-horizontal-spacing/)
 
+- [Sound Input & Output Device Chooser by kgshank](https://extensions.gnome.org/extension/906/sound-output-device-chooser/)
+
 
 ## Create Swap Partition after Installation
 
