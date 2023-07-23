@@ -16,6 +16,10 @@
 
 - [Sound Input & Output Device Chooser by kgshank](https://extensions.gnome.org/extension/906/sound-output-device-chooser/)
 
+- [Transparent Top Bar (Adjustable transparency) by Gonzague](https://extensions.gnome.org/extension/3960/transparent-top-bar-adjustable-transparency/)
+
+- [Rounded Window Corners by Luo Yi](https://extensions.gnome.org/extension/5237/rounded-window-corners/)
+
 
 ## Create Swap Partition after Installation
 
@@ -84,4 +88,6 @@ I assume you have a swap partition ready to use (if you have a swap file you can
 
 - **Go to Settings -> Color -> Laptop Screen -> Add Profile -> Select Standard Space - sRGB**
 
-- Night Light ![Color Temp](./assets/color-temp.png)
+- Night Light
+
+    ![Color Temp](./assets/color-temp.png)
