@@ -84,4 +84,4 @@ I assume you have a swap partition ready to use (if you have a swap file you can
 
 - **Go to Settings -> Color -> Laptop Screen -> Add Profile -> Select Standard Space - sRGB**
 
-- Night Light ![Color Temp](color-temp.png)
+- Night Light ![Color Temp](./assets/color-temp.png)
