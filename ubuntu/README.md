@@ -20,6 +20,8 @@
 
 - [Rounded Window Corners by Luo Yi](https://extensions.gnome.org/extension/5237/rounded-window-corners/)
 
+- [Hibernate Status Button by p91paul](https://extensions.gnome.org/extension/755/hibernate-status-button/)
+
 
 ## Create Swap Partition after Installation
 
@@ -81,6 +83,42 @@ I assume you have a swap partition ready to use (if you have a swap file you can
 9. To test it, run:
 
     `sudo systemctl hibernate`
+
+### Adding the Hibernate Option in the System Tray Power Off/Log Out Menu of Ubuntu 22.04 LTS
+
+- To do that, create a new file which is com.ubuntu.enable-hibernate.pkla in the /etc/polkit-1/localauthority/50-local.d/ directory and open it with the “gedit” text editor as follows:
+
+    `sudo gedit /etc/polkit-1/localauthority/50-local.d/com.ubuntu.enable-hibernate.pkla`
+
+    Type in the following lines of codes in the com.ubuntu.enable-hibernate.pkla file:
+
+    ```
+    [Re-enable hibernate by default in upower]
+
+    Identity=unix-user:*
+
+    Action=org.freedesktop.upower.hibernate
+
+    ResultActive=yes
+
+    [Re-enable hibernate by default in logind]
+
+    Identity=unix-user:*
+
+    Action=org.freedesktop.login1.hibernate;org.freedesktop.login1.handle-hibernate-key;org.freedesktop.login1;org.freedesktop.login1.hibernate-multiple-sessions;org.freedesktop.login1.hibernate-ignore-inhibit
+
+    ResultActive=yes
+    ```
+
+- Once you’re done, save the file by pressing <Ctrl> + S.
+
+- Now, update the APT package repository cache with the following command:
+`$ sudo apt update`
+
+- Install the GNOME Extension Manager app with the following command:
+`$ sudo apt install gnome-shell-extension-manager`
+
+- Then download **Hibernate Status Button** from the extensions list and we're all set :)
 
 # Getting My Preferred Color (Color Accuracy)
 
