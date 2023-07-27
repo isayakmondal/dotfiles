@@ -129,3 +129,6 @@ I assume you have a swap partition ready to use (if you have a swap file you can
 - Night Light
 
     ![Color Temp](./assets/color-temp.png)
+
+### Fix Bootloader
+-  https://help.ubuntu.com/community/Boot-Repair
