@@ -4,24 +4,34 @@
 
 - [Clipboard Indicator by Tudmotu](https://extensions.gnome.org/extension/779/clipboard-indicator/)
 
-- [cpufreq by konkor](https://extensions.gnome.org/extension/1082/cpufreq/)
+- ~~[cpufreq by konkor](https://extensions.gnome.org/extension/1082/cpufreq/)~~
 
 
 - [Resource Monitor by 0ry0n](https://extensions.gnome.org/extension/1634/resource-monitor/)
 
-- [Sensory Perception by HarlemSquirrel](https://extensions.gnome.org/extension/1145/sensory-perception/)
+- ~~[Sensory Perception by HarlemSquirrel](https://extensions.gnome.org/extension/1145/sensory-perception/)~~
 
 
 - [Status Area Horizontal Spacing by p91paul](https://extensions.gnome.org/extension/355/status-area-horizontal-spacing/)
 
 - [Sound Input & Output Device Chooser by kgshank](https://extensions.gnome.org/extension/906/sound-output-device-chooser/)
 
-- [Transparent Top Bar (Adjustable transparency) by Gonzague](https://extensions.gnome.org/extension/3960/transparent-top-bar-adjustable-transparency/)
+- ~~[Transparent Top Bar (Adjustable transparency) by Gonzague](https://extensions.gnome.org/extension/3960/transparent-top-bar-adjustable-transparency/)~~
 
 - [Rounded Window Corners by Luo Yi](https://extensions.gnome.org/extension/5237/rounded-window-corners/)
 
 - [Hibernate Status Button by p91paul](https://extensions.gnome.org/extension/755/hibernate-status-button/)
 
+
+- [Add Username to Top Panel by brendaw](https://extensions.gnome.org/extension/1108/add-username-to-top-panel/)
+
+- [Blur my Shell by aunetx](https://extensions.gnome.org/extension/3193/blur-my-shell/)
+
+- [Workspace indicator by tty2](https://extensions.gnome.org/extension/3952/workspace-indicator/)
+
+- [Search Light by icedman](https://extensions.gnome.org/extension/5489/search-light/)
+
+- [GSConnect by dlandau](https://extensions.gnome.org/extension/1319/gsconnect/)
 
 ## Create Swap Partition after Installation
 
