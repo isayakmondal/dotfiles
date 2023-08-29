@@ -9,7 +9,7 @@
 - DE: GNOME 42.9 
 - WM: Mutter 
 - WM Theme: Adwaita 
-- Theme: Yaru-dark [GTK2/3] 
+- Theme: Gruvbox-Dark-BL [GTK2/3]
 - Icons: Yaru [GTK2/3] 
 - Terminal: gnome-terminal 
 - CPU: Intel i7-8750H (12) @ 4.100GHz 
