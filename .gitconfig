@@ -1,0 +1,10 @@
+[user]
+	email = isayakmondal@gmail.com
+	name = Sayak Mondal
+	
+[alias]
+    work = "!f() { git config user.email '<work_mail>@gmail.com'; git config user.name 'Work Name'; }; f"
+    personal = "!f() { git config --local --unset user.email; git config --local --unset user.name; }; f"
+
+[init]
+	defaultBranch = main
