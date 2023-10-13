@@ -29,3 +29,7 @@ BE VERY VERY VERY CAREFUL ABOUT THE OPTIONS YOU CHOOSE! ONE SMALL MISTAKE CAN CA
 Make sure your system is completely powered off and unplug the power adapter. Plug the power adapter to the wall and turn the switch to ON. Do not connect the other end to the laptop. Hold down the Ctrl+Esc keys together and plug in the power adapter while still holding the keys down. Let go of the Ctrl+Esc keys as soon as the screen lights up. This will take the computer to a special recovery mode called BIOS Recovery. This mode is not well known to even most technicians since it is dangerous if used incorrectly. Once you get the screen on, the options will vary depending on the series and model of your laptop. Make sure you choose the option to do nothing. DO NOT DOWNGRADE OR RESET at any cost! You may lose all your BIOS settings and without the power button, you cannot enter the BIOS to change any settings. Once you choose the option that says something like Do nothing or restart the system will take you to Windows.
 
 You can use this method until you get your power button replaced.
+
+- How to manage multiple github accounts? 
+
+[Follow this](https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca/) to add multiple ssh keys and then copy the `.gitconfig` file.
