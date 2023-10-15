@@ -142,3 +142,16 @@ I assume you have a swap partition ready to use (if you have a swap file you can
 
 ### Fix Bootloader
 -  https://help.ubuntu.com/community/Boot-Repair
+
+
+### Fix Overscrolling
+    
+    The command below will solve the problem of overscrolling:
+
+    xinput set-prop 13 "libinput Scrolling Pixel Distance" 50
+    where 13 is device id and 50 is the value. The default value was 15. The more the value, the slower the scroll.
+
+    Use this command to look at whether the property is getting changed or not, and please play with other values to get a better touchpad feel:
+
+    xinput --watch-props 13
+    Source : https://askubuntu.com/a/1438010
